@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+
+    <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <link rel = "icon" href = "images/favicon.jpeg">
+	<link rel = "stylesheet" href = "css/html5reset.css">
+    <link rel = "stylesheet" href = "css/style.css">
+    <link href = "https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel = "stylesheet">    
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact Mitski</title>
+
+    <!-- Google Analytics -->
+    <script async src = "https://www.googletagmanager.com/gtag/js?id=G-HCYGXSTP7R"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        
+        gtag('config', 'G-HCYGXSTP7R');
+    </script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <a class = "skip" href = "#skip">Skip to Main Content</a>
+        
+        <nav>
+			<ul>
+				<li><a href = "index.html" >Who is Mitski?</a></li>
+				<li><a href = "background.html">Background</a></li>
+				<li><a href = "songs.html">Songs</a></li>
+				<li><a href = "albums.html">Albums</a></li>
+                <li class = "active"><a href = "contact.html">Contact Mitski</a></li>
+                <li><a href = "guess.html">Test Your Knowledge</a></li>
+			</ul>
+		</nav>
+
+
+    </header>
+
+    <main id = "skip">
+
+  
+        <form action = "https://formspree.io/f/xnqwzdpb" method = "POST">
+            <fieldset>
+
+                <h1> What Are Your Favorite Mitski Songs? </h1>
+                
+                <label class = "headings" for = "name_id"> Your Name: </label> 
+                <input type = "text" placeholder = "Enter Your Name" name = "name" id = "name_id" required>  
+
+                <label class = "headings" for = "email_id"> Your Email: </label>
+                <input type = "email" placeholder = "Enter Your Email" name = "email" id = "email_id" required> 
+
+                <label class = "headings"> Select your favorite song(s) </label> <br> <br>
+                    <input type = "checkbox" name = "song1" id = "song1_id" class = "checkbox">
+                    <label class = "cbTXT" for = "song1_id"> Mother </label>  <br>
+                    <input type = "checkbox" name = "song2" id = "song2_id"  class = "checkbox">
+                    <label class = "cbTXT" for = "song2_id"> Two Slow Dancers </label> <br>
+                    <input type = "checkbox" name = "song3" id = "song3_id"  class = "checkbox">
+                    <label class = "cbTXT" for = "song3_id"> A Loving Feeling </label> <br>
+                    <input type = "checkbox" name = "song4" id = "song4_id" class = "checkbox">
+                    <label class = "cbTXT" for = "song4_id"> Square </label> <br>
+                    <input type = "checkbox" name = "song5" id = "song5_id" class = "checkbox">
+                    <label class = "cbTXT" for = "song5_id"> I Guess </label> <br>
+                    <input type = "checkbox" name = "song6" id = "song6_id" class = "checkbox">
+                    <label class = "cbTXT" for = "song6_id"> There's Nothing Left For You </label> <br>
+                    <input type = "checkbox" name = "song7" id = "song7_id" class = "checkbox">
+                    <label class = "cbTXT" for = "song7_id"> Come Into The Water </label> <br>
+                    <input type = "checkbox" name = "song8" id = "song8_id" class = "checkbox">
+                    <label class = "cbTXT" for = "song8_id"> Why Didn't You Stop Me? </label> <br>
+                    <input type = "checkbox" name = "song9" id = "song9_id" class = "checkbox">
+                    <label class = "cbTXT" for = "song9_id"> A Pearl </label> <br>
+                    <input type = "checkbox" name = "song10" id = "song10_id" class = "checkbox">
+                    <label class = "cbTXT" for = "song10_id"> A Horse Named Cold Air </label> <br> <br>
+
+                <!-- <label for = "num_id" required> Your Phone Number </label>
+                <input type = "tel" name = "number" id = "num_id">
+                <div><span>Format: 123-456-7890</span></div> -->
+
+                <label class = "headings" for = "message_id"> Leave Mitski a message: </label>
+                <textarea id = "message_id"></textarea>
+
+                <!-- <input type = "checkbox" name = "remember" id = "remember_id"> 
+                <label for = "remember_id"> Remember me </label> -->
+
+                <input class = "submit" type = "submit" value = "Send to mitski!">
+            </fieldset>
+        </form>
+
+    </main>
+
+    <footer>
+
+        <p class = "footer_text">Who is Mitski? By Zahraa Elghoul</p>
+
+        <a class = "spotify" href = "https://open.spotify.com/artist/2uYWxilOVlUdk4oV9DvwqK">
+            <i class = "fa fa-brands fa-spotify" style = "font-size: 30px"></i>
+            spotify
+        </a>
+
+        <a class = "appleMusic" href = "https://music.apple.com/us/artist/mitski/497546276">
+            <i class = "fa fa-solid fa-music" style = "font-size: 30px"></i>
+            apple music
+        </a>
+
+        <a class = "youtube" href = "https://www.youtube.com/channel/UC-GjYlrAWIHgwNDnbFHZ77g">
+            <i class = "fa fa-brands fa-youtube" style = "font-size: 30px"></i>
+            youtube
+        </a>
+
+        
+        <!-- <p class = "footer_link"></p> -->
+
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+
+    <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <link rel = "icon" href = "images/favicon.jpeg">
+	<link rel = "stylesheet" href = "css/html5reset.css">
+    <link rel = "stylesheet" href = "css/style.css">
+    <link href = "https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel = "stylesheet">
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Test Your Knowledge</title>
+
+    <!-- Google Analytics -->
+    <script async src = "https://www.googletagmanager.com/gtag/js?id=G-HCYGXSTP7R"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        
+        gtag('config', 'G-HCYGXSTP7R');
+    </script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <a class = "skip" href = "#skip">Skip to Main Content</a>
+        
+        <nav>
+			<ul>
+				<li><a href = "index.html" >Who is Mitski?</a></li>
+				<li><a href = "background.html">Background</a></li>
+				<li><a href = "songs.html">Songs</a></li>
+				<li><a href = "albums.html">Albums</a></li>
+                <li><a href = "contact.html">Contact Mitski</a></li>
+                <li class = "active"><a href = "guess.html">Test Your Knowledge</a></li>
+			</ul>
+		</nav>
+
+    </header>
+
+    <main id = "skip">
+
+        <h1>Guess the Mitski Lyric!</h1>
+        <!-- <p>Can you guess the Mitski Lyric?</p> -->
+
+        <div id = "form">
+        <p id = "lyric"></p>
+
+        <form>
+            <label for = "guess" id = "guessTitle"> Type your guess here or type "exit" to quit! </label>
+            <input type = "text" id = "guess">
+            <input type = "submit" id = "submitGuess" value = "Check">
+            <input type = "submit" id = "refresh" value = "Refresh">
+        </form>
+
+        </div>
+
+    </main>
+
+    <script src = "js/js.js"></script>
+
+    <footer>
+
+        <p class = "footer_text">Who is Mitski? By Zahraa Elghoul</p>
+
+        <a class = "spotify" href = "https://open.spotify.com/artist/2uYWxilOVlUdk4oV9DvwqK">
+            <i class = "fa fa-brands fa-spotify" style = "font-size: 30px"></i>
+            spotify
+        </a>
+
+        <a class = "appleMusic" href = "https://music.apple.com/us/artist/mitski/497546276">
+            <i class = "fa fa-solid fa-music" style = "font-size: 30px"></i>
+            apple music
+        </a>
+
+        <a class = "youtube" href = "https://www.youtube.com/channel/UC-GjYlrAWIHgwNDnbFHZ77g">
+            <i class = "fa fa-brands fa-youtube" style = "font-size: 30px"></i>
+            youtube
+        </a>
+
+        
+        <!-- <p class = "footer_link"></p> -->
+
+    </footer>
+
+</body>
+</html>
